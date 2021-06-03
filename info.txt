@@ -1,0 +1,17 @@
+Get Developer Tools from (this is a PowerShell script):
+=====================================================
+https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/download-tools-nuget
+
+Goto Coretools:
+
+To extract a unmanaged solution :
+===============================
+solutionpackager /action:Extract /zipfile:"c:\Data\PP\PL400Demo2_1_0_0_2.zip" /folder "C:\Data\PP\PL400Demo2"
+
+To pack a solution:
+==================
+solutionpackager /action:Pack /zipfile:"c:\Data\PP\PL400Demo2_1_0_0_2.zip" /folder "C:\Data\PP\PL400Demo2" /packagetype:Unmanaged
+
+Get “Power Platform build tools”:
+===============================
+https://marketplace.visualstudio.com/azuredevops
